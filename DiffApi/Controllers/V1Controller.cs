@@ -118,7 +118,7 @@ namespace DiffApi.Controllers
 
         // PUT: api/V1/diff/1/Left
         /// <summary>
-        /// Assign a value to Left of a given ID. Accepts JSON containing base64 encoded binary data
+        /// Assign a value to Left of a given ID. Accepts JSON containing base64 encoded string
         /// </summary>
         /// <param name="ID"></param>
         /// <param name="Value"></param>
@@ -158,7 +158,7 @@ namespace DiffApi.Controllers
 
         // PUT: api/V1/diff/1/Right
         /// <summary>
-        /// Assign a value to Right of a given ID. Accepts JSON containing base64 encoded binary data
+        /// Assign a value to Right of a given ID. Accepts JSON containing base64 encoded string
         /// </summary>
         /// <param name="ID"></param>
         /// <param name="Value"></param>
